@@ -1,0 +1,22 @@
+<view class="page">
+    <image class="bg" src="../../images/bg.jpg" mode="" />
+    <view class="user">
+        <view class="userInfo" wx:if="{{avatarUrl}}">
+            <image src="{{avatarUrl}}" mode="" />
+            <text>{{username}}</text>
+        </view>
+        <view class="loginBtn" wx:else>
+            <button bindtap="handleLogin">点击登录</button>
+        </view>
+    </view>
+    <view class="result">
+        {{result}}
+    </view>
+    <view class="btns">
+        <button bindtap="handleChangeResult">{{btnTxt}}</button>
+    </view>
+
+    <view class="gif" hidden="{{isStart}}">
+        <image src="../../images/eating.gif" alt="" />
+    </view>
+</view>

@@ -1,0 +1,5 @@
+<button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{avatarUrl}}"></image>
+</button> 
+<input type="nickname" class="input" placeholder="点击获取用户昵称" bind:change="getNickName"/>
+<button class="submit" bindtap="handleConfirm">确定</button>

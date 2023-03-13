@@ -1,0 +1,15 @@
+.avatar-wrapper {
+    width: 100px;
+    height: 100px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+}
+.input{
+    border: 1rpx solid #ccc;
+    margin: 20rpx auto;
+}
+.submit{
+    background: #FFCA28;
+}
